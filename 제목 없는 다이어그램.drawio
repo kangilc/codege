@@ -43,12 +43,12 @@
           <mxGeometry x="720" y="-1120" width="100" height="400" as="geometry" />
         </mxCell>
         <mxCell id="l_-2nsuTv6NkfU2OJdEq-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="l_-2nsuTv6NkfU2OJdEq-1">
-          <mxGeometry x="45" y="260" width="10" height="70" as="geometry" />
+          <mxGeometry x="45" y="239" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="l_-2nsuTv6NkfU2OJdEq-3" value="empTokenInit( String usrId )&#xa;" style="verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" source="7xH93Sl78AJNd4GW-xTZ-9" target="l_-2nsuTv6NkfU2OJdEq-2">
+        <mxCell id="l_-2nsuTv6NkfU2OJdEq-3" value="empTokenInit( String usrId )&#xa;" style="verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="455" y="-896.9999999999999" as="sourcePoint" />
-            <mxPoint x="765.0000000000002" y="-896.9999999999999" as="targetPoint" />
+            <mxPoint x="455" y="-847.9999999999999" as="sourcePoint" />
+            <mxPoint x="765.0000000000002" y="-847.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l_-2nsuTv6NkfU2OJdEq-4" value="CommonMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -61,7 +61,23 @@
           <mxGeometry x="550" y="-1120" width="100" height="240" as="geometry" />
         </mxCell>
         <mxCell id="l_-2nsuTv6NkfU2OJdEq-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="l_-2nsuTv6NkfU2OJdEq-6">
-          <mxGeometry x="45" y="150" width="10" height="70" as="geometry" />
+          <mxGeometry x="45" y="150" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l_-2nsuTv6NkfU2OJdEq-10" value="extractUsrId()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" source="7xH93Sl78AJNd4GW-xTZ-9" target="l_-2nsuTv6NkfU2OJdEq-7">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="500" y="-940" as="sourcePoint" />
+            <mxPoint x="560" y="-940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="-960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_-2nsuTv6NkfU2OJdEq-11" value="String usrId" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595.0000000000002" y="-927.0000000000001" as="sourcePoint" />
+            <mxPoint x="455" y="-927.0000000000001" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
