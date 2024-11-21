@@ -265,16 +265,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LGBW__geyH-p6XTnPbDa-2" value="LMP LOGIN" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="120" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="120" y="40" width="100" height="240" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LGBW__geyH-p6XTnPbDa-2" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="200" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-3" value="FRONT&lt;div&gt;/SsoCallBack&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="320" y="40" width="100" height="1280" as="geometry" />
+          <mxGeometry x="320" y="40" width="100" height="2920" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LGBW__geyH-p6XTnPbDa-3" vertex="1">
-          <mxGeometry x="45" y="120" width="10" height="1120" as="geometry" />
+          <mxGeometry x="45" y="120" width="10" height="2760" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LGBW__geyH-p6XTnPbDa-3" vertex="1">
           <mxGeometry x="40" y="180" width="20" height="40" as="geometry" />
@@ -312,45 +312,45 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-16" value="LoginController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="520" y="40" width="100" height="1280" as="geometry" />
+          <mxGeometry x="520" y="40" width="100" height="2920" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LGBW__geyH-p6XTnPbDa-16" vertex="1">
-          <mxGeometry x="45" y="240" width="10" height="1000" as="geometry" />
+          <mxGeometry x="45" y="240" width="10" height="2640" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-21" value="loginComplete" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="LGBW__geyH-p6XTnPbDa-13" target="LGBW__geyH-p6XTnPbDa-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="315" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LGBW__geyH-p6XTnPbDa-22" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="LGBW__geyH-p6XTnPbDa-20" target="LGBW__geyH-p6XTnPbDa-13" edge="1">
+        <mxCell id="LGBW__geyH-p6XTnPbDa-22" value="AuthDto.SignInResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="LGBW__geyH-p6XTnPbDa-20" target="LGBW__geyH-p6XTnPbDa-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-23" value="&lt;font face=&quot;Consolas&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;LoginService&lt;/span&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="640" y="40" width="100" height="1280" as="geometry" />
+          <mxGeometry x="660" y="40" width="120" height="2920" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LGBW__geyH-p6XTnPbDa-23" vertex="1">
-          <mxGeometry x="45" y="300" width="10" height="940" as="geometry" />
+          <mxGeometry x="55" y="300" width="10" height="2580" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-26" value="loginComplete" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="LGBW__geyH-p6XTnPbDa-20" target="LGBW__geyH-p6XTnPbDa-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="345" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LGBW__geyH-p6XTnPbDa-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="LGBW__geyH-p6XTnPbDa-25" target="LGBW__geyH-p6XTnPbDa-20" edge="1">
+        <mxCell id="LGBW__geyH-p6XTnPbDa-27" value="AuthDto.SignInResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="LGBW__geyH-p6XTnPbDa-25" target="LGBW__geyH-p6XTnPbDa-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-32" value="ApiConnEmpOAuthService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="840" y="40" width="220" height="1280" as="geometry" />
+          <mxGeometry x="840" y="40" width="150" height="1760" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LGBW__geyH-p6XTnPbDa-32" vertex="1">
-          <mxGeometry x="105" y="480" width="10" height="660" as="geometry" />
+          <mxGeometry x="70" y="480" width="10" height="660" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LGBW__geyH-p6XTnPbDa-32" vertex="1">
-          <mxGeometry x="100" y="619.97" width="20" height="140" as="geometry" />
+          <mxGeometry x="65" y="610" width="20" height="140" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-40" value="getOAuthRequestTime" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="LGBW__geyH-p6XTnPbDa-32" source="LGBW__geyH-p6XTnPbDa-33" target="LGBW__geyH-p6XTnPbDa-39" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -362,18 +362,63 @@
             <mxPoint x="60" y="579.97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-7" value="getHeader()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="LGBW__geyH-p6XTnPbDa-32">
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-7" value="getHeader()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-6" parent="LGBW__geyH-p6XTnPbDa-32" source="LGBW__geyH-p6XTnPbDa-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="115.00000000000023" y="910.0044827586207" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="140" y="909.97" />
-              <mxPoint x="140" y="949.97" />
+              <mxPoint x="140" y="910" />
+              <mxPoint x="140" y="950" />
             </Array>
             <mxPoint x="120.00000000000023" y="950.0044827586207" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AXu_qQL4ZWgnv2_Lezh4-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LGBW__geyH-p6XTnPbDa-32">
-          <mxGeometry x="100" y="935" width="20" height="130" as="geometry" />
+          <mxGeometry x="65" y="935" width="20" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LGBW__geyH-p6XTnPbDa-32">
+          <mxGeometry x="70" y="1180" width="10" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LGBW__geyH-p6XTnPbDa-32">
+          <mxGeometry x="65" y="1259.97" width="20" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-22" value="getOAuthRequestTime" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-21" parent="LGBW__geyH-p6XTnPbDa-32" source="AXu_qQL4ZWgnv2_Lezh4-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="1240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="1240" />
+              <mxPoint x="100" y="1280" />
+            </Array>
+            <mxPoint x="60" y="1219.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LGBW__geyH-p6XTnPbDa-32">
+          <mxGeometry x="285" y="1299.97" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-25" value="LMP 서버 시간 요청" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=123;height=20;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;align=left;" vertex="1" parent="LGBW__geyH-p6XTnPbDa-32">
+          <mxGeometry x="40" y="1200" width="440" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-28" value="getDate" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-21" target="AXu_qQL4ZWgnv2_Lezh4-23" parent="LGBW__geyH-p6XTnPbDa-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1324.97" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-29" value="국가별 서버 시간" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-23" target="AXu_qQL4ZWgnv2_Lezh4-21" parent="LGBW__geyH-p6XTnPbDa-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1334.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LGBW__geyH-p6XTnPbDa-32">
+          <mxGeometry x="65" y="1575" width="20" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-33" value="getHeader()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="LGBW__geyH-p6XTnPbDa-32" source="AXu_qQL4ZWgnv2_Lezh4-17" target="AXu_qQL4ZWgnv2_Lezh4-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115.00000000000023" y="1550.0044827586207" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="1550" />
+              <mxPoint x="100" y="1590" />
+            </Array>
+            <mxPoint x="120.00000000000023" y="1590.0044827586207" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-34" value="setOAuthRequestToken" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="LGBW__geyH-p6XTnPbDa-25" target="LGBW__geyH-p6XTnPbDa-33" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -389,7 +434,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-41" value="EmpOAuthFeign" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1080" y="40" width="100" height="1280" as="geometry" />
+          <mxGeometry x="1080" y="40" width="100" height="1760" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LGBW__geyH-p6XTnPbDa-41" vertex="1">
           <mxGeometry x="45" y="659.97" width="10" height="80" as="geometry" />
@@ -398,19 +443,41 @@
           <mxGeometry x="45" y="960" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-45" value="LMP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1200" y="40" width="100" height="1280" as="geometry" />
+          <mxGeometry x="1200" y="40" width="120" height="1760" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-46" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LGBW__geyH-p6XTnPbDa-45" vertex="1">
-          <mxGeometry x="45" y="679.97" width="10" height="40" as="geometry" />
+          <mxGeometry x="55" y="679.97" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AXu_qQL4ZWgnv2_Lezh4-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LGBW__geyH-p6XTnPbDa-45">
-          <mxGeometry x="45" y="980" width="10" height="40" as="geometry" />
+          <mxGeometry x="55" y="980" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LGBW__geyH-p6XTnPbDa-49" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LGBW__geyH-p6XTnPbDa-45">
+          <mxGeometry x="-75" y="1600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LGBW__geyH-p6XTnPbDa-45">
+          <mxGeometry x="55" y="1620" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-39" value="/oauth/1.0/users/profile" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-35" target="AXu_qQL4ZWgnv2_Lezh4-36" parent="LGBW__geyH-p6XTnPbDa-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="1625" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-40" value="사용자정보" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-36" target="AXu_qQL4ZWgnv2_Lezh4-35" parent="LGBW__geyH-p6XTnPbDa-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="1695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-41" value="LMP&amp;nbsp;사용자 정보 조회 요청" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=15;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;align=left;" vertex="1" parent="LGBW__geyH-p6XTnPbDa-45">
+          <mxGeometry x="-320" y="1520" width="440" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LGBW__geyH-p6XTnPbDa-45">
+          <mxGeometry x="55" y="1319.97" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LGBW__geyH-p6XTnPbDa-49" value="token and lmp url 확인" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;width=140;height=20;align=left;" parent="1" vertex="1">
           <mxGeometry x="640" y="360" width="260" height="150" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-50" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
-          <mxGeometry x="10" y="40" width="20" height="1000" as="geometry" />
+          <mxGeometry x="10" y="40" width="20" height="2920" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-51" value="[if null == authorizationCode ]" style="text;align=center;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="400" width="80" height="26" as="geometry" />
@@ -421,7 +488,7 @@
         <mxCell id="LGBW__geyH-p6XTnPbDa-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LGBW__geyH-p6XTnPbDa-51" target="LGBW__geyH-p6XTnPbDa-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-1" value="LMP 서버 시간 요청" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=123;height=20;" vertex="1" parent="1">
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-1" value="LMP 서버 시간 요청" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=123;height=20;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;align=left;" vertex="1" parent="1">
           <mxGeometry x="880" y="600" width="440" height="220" as="geometry" />
         </mxCell>
         <mxCell id="LGBW__geyH-p6XTnPbDa-47" value="/oauth/1.0/datetime" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="LGBW__geyH-p6XTnPbDa-42" target="LGBW__geyH-p6XTnPbDa-46" edge="1">
@@ -445,18 +512,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AXu_qQL4ZWgnv2_Lezh4-2" value="EMPUtil" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1360" y="40" width="100" height="1280" as="geometry" />
+          <mxGeometry x="1360" y="40" width="100" height="1760" as="geometry" />
         </mxCell>
         <mxCell id="AXu_qQL4ZWgnv2_Lezh4-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-2">
           <mxGeometry x="45" y="820" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-4" value="getSignature" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-2">
+          <mxGeometry x="45" y="1450" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-31" value="getSignature" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="AXu_qQL4ZWgnv2_Lezh4-2" source="AXu_qQL4ZWgnv2_Lezh4-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-405" y="1459" as="sourcePoint" />
+            <mxPoint x="45" y="1459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-32" value="LMS 시그니처" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="AXu_qQL4ZWgnv2_Lezh4-2" target="AXu_qQL4ZWgnv2_Lezh4-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-405" y="1480" as="targetPoint" />
+            <mxPoint x="45" y="1480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-4" value="getSignature" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="LGBW__geyH-p6XTnPbDa-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="955" y="869" as="sourcePoint" />
             <mxPoint x="1405" y="869" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-5" value="LMS 시그니처" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-5" value="LMS 시그니처" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="LGBW__geyH-p6XTnPbDa-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="955" y="890" as="targetPoint" />
             <mxPoint x="1405" y="890" as="sourcePoint" />
@@ -482,8 +564,219 @@
             <mxPoint x="1175" y="1095" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-16" value="LMP 토큰 인증 요청" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=123;height=20;" vertex="1" parent="1">
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-16" value="LMP 토큰 인증 요청" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=123;height=20;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;align=left;" vertex="1" parent="1">
           <mxGeometry x="880" y="920" width="440" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-18" value="getOAuthRequestUserProfile" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-17" parent="1" source="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="875" y="1225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-19" value="사용자정보" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-17" parent="1" target="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="875" y="1295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-42" value="사용자 EMP 정보 DB 조회" style="text;align=left;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1858" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-43" value="CommomMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1480" y="40" width="100" height="2520" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry x="45" y="1840" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-54" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry x="45" y="1960" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-57" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry x="45" y="2040" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-73" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry x="45" y="2230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-76" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry x="45" y="2350" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-71" value="사용자 정보 DB 저장&lt;div&gt;국가코드,이름&lt;/div&gt;" style="text;align=left;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry x="-750" y="2190" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-74" value="selectUserInfo(strUserId)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-73" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-754.9999999999998" y="2235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-75" value="사용자정보" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-73" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-754.9999999999998" y="2265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-77" value="insertUserInfo(SecurityDto.User)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-76" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-754.9999999999998" y="2355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-78" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-76" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-754.9999999999998" y="2385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-79" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry x="45" y="2430" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-80" value="updateUserInfo(SecurityDto.User)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-79" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-754.9999999999998" y="2435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-81" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-79" parent="AXu_qQL4ZWgnv2_Lezh4-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-754.9999999999998" y="2465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-49" value="selectUserEmpInfo(strUserId)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-48" parent="1" source="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1455" y="1885" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-50" value="사용자정보" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-48" parent="1" target="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1455" y="1955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-51" value="사용자 EMP 정보 저장" style="text;align=left;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1934" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AXu_qQL4ZWgnv2_Lezh4-52" target="AXu_qQL4ZWgnv2_Lezh4-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-52" value="[ if userEmpResult == null ]" style="text;align=left;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="730" y="1960" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-53" value="[else]" style="text;align=left;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="730" y="2040" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-60" value="ApiConEMPService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1600" y="40" width="120" height="2240" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-68" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-60">
+          <mxGeometry x="55" y="2140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-69" value="getEmpMemberInfo" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-68" parent="1" source="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="827" y="2145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-70" value="EMP 사용자 정보" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-68" parent="1" target="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="827" y="2175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-26" value="/oauth/1.0/datetime" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-23" target="AXu_qQL4ZWgnv2_Lezh4-24" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="1404.97" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-27" value="국가별 서버 시간" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-24" target="AXu_qQL4ZWgnv2_Lezh4-23" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="1474.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-37" value="getRequestUserProfile()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-34" target="AXu_qQL4ZWgnv2_Lezh4-35" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="1645" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-38" value="사용자정보" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-35" target="AXu_qQL4ZWgnv2_Lezh4-34" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1055" y="1715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-55" value="insertUserEmpInfo" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-54" parent="1" source="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="2005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-56" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-54" parent="1" target="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="2035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-58" value="updateUserEmpInfo" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-57" parent="1" source="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="2085" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-59" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-57" parent="1" target="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="2115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-85" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;사용자 LMP 정보 저장&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=27;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1830" width="880" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-87" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;사용자 정보 DB 저장&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=27;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2140" width="880" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-83" value="[ if userInfoResult == null]" style="text;align=left;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="730" y="2350" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-84" value="[else]" style="text;align=left;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="730" y="2430" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-89" value="신규 회원 권한 정보 DB 저장" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=20;fillColor=#1ba1e2;strokeColor=#006EAF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2560" width="880" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-90" value="포탈 token 생성" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=27;fillColor=#1ba1e2;strokeColor=#006EAF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2800" width="880" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-91" value="SecurityMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1760" y="40" width="100" height="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-92" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-91">
+          <mxGeometry x="45" y="2560" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-96" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-91">
+          <mxGeometry x="45" y="2640" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-97" value="securityMapper.insertGroupUserInfo(SecurityDto.GroupUser)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-96" parent="AXu_qQL4ZWgnv2_Lezh4-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1035" y="2645" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-98" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-96" parent="AXu_qQL4ZWgnv2_Lezh4-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1035" y="2675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-93" value="securityMapper.selectGroupAuthList(strUserId)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-92" parent="1" source="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="2605" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-94" value="권한 목록" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-92" parent="1" target="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="2675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-95" value="[ if 권한 목록 == null]" style="text;align=left;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="730" y="2650" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-99" value="AuthService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1900" y="40" width="100" height="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-100" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AXu_qQL4ZWgnv2_Lezh4-99">
+          <mxGeometry x="45" y="2800" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-101" value="authService.signIn(signInParam)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="AXu_qQL4ZWgnv2_Lezh4-100" parent="1" source="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="2845" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXu_qQL4ZWgnv2_Lezh4-102" value="AuthDto.SignInResult" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="AXu_qQL4ZWgnv2_Lezh4-100" parent="1" target="LGBW__geyH-p6XTnPbDa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="2875" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
