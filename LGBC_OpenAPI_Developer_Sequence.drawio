@@ -260,7 +260,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="66jogXPUeLw2uXsOjbfE" name="로그인">
-    <mxGraphModel dx="3471" dy="2322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1953" dy="2475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -811,6 +811,9 @@
             <mxPoint x="365" y="2919.46" as="sourcePoint" />
             <mxPoint x="175" y="2919.46" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0HlYvUJURkQWsf7jAumh-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Nomal Login Sequence&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-110" width="550" height="92" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
