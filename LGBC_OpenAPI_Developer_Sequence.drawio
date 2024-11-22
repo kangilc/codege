@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.6" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.6" pages="4">
   <diagram name="기기연결" id="5qDuznM82rCRKL5Qjks3">
     <mxGraphModel dx="1562" dy="3284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -814,6 +814,88 @@
         </mxCell>
         <mxCell id="0HlYvUJURkQWsf7jAumh-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Nomal Login Sequence&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="-110" width="550" height="92" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EW2-lRY2VgOg554-KWWk" name="로그인_FLOW">
+    <mxGraphModel dx="1562" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VIoIwSdz5wkduZqeOXjo-1" target="_WYFLa_NGd2iHcDaGsP9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VIoIwSdz5wkduZqeOXjo-1" value="로그인 후처리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WYFLa_NGd2iHcDaGsP9-4" target="_WYFLa_NGd2iHcDaGsP9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-8" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_WYFLa_NGd2iHcDaGsP9-7">
+          <mxGeometry x="-0.1267" y="-1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WYFLa_NGd2iHcDaGsP9-4" target="_WYFLa_NGd2iHcDaGsP9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-4" value="토큰 및 URL" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-6" value="메인" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WYFLa_NGd2iHcDaGsP9-9" target="_WYFLa_NGd2iHcDaGsP9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-9" value="LMP 토큰 발급" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-11" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="278" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WYFLa_NGd2iHcDaGsP9-12" target="_WYFLa_NGd2iHcDaGsP9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-12" value="LMP 세션 발급" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WYFLa_NGd2iHcDaGsP9-14" target="_WYFLa_NGd2iHcDaGsP9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-14" value="LMP 사용자 조회" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WYFLa_NGd2iHcDaGsP9-18" target="_WYFLa_NGd2iHcDaGsP9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-18" value="사용자 EMP 저장" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WYFLa_NGd2iHcDaGsP9-20" target="_WYFLa_NGd2iHcDaGsP9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-20" value="사용자 정보 저장" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WYFLa_NGd2iHcDaGsP9-22" target="_WYFLa_NGd2iHcDaGsP9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-22" value="신규 유저&lt;div&gt;여부&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WYFLa_NGd2iHcDaGsP9-24" target="_WYFLa_NGd2iHcDaGsP9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-24" value="권한 정보 저장" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-26" value="JWT 토큰 생성" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WYFLa_NGd2iHcDaGsP9-28" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="48" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
